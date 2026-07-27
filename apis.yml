@@ -1,7 +1,14 @@
 aid: ion-mobility
 name: Ion Mobility
-description: Ion Mobility is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: ION Mobility is a Singapore-headquartered technology and automotive company that
+  designs and builds affordable, zero-emission smart electric motorcycles for riders across
+  Southeast Asia, with its flagship M1-S model and a companion rider mobile app. The company
+  combines advanced hardware and software with human-centred design, spanning electric two-wheelers
+  and energy charging and storage solutions, with additional offices in Jakarta and Shenzhen and
+  backing from investors including 500 Global. This API Evangelist profile tracks the company's
+  public developer and identity surface; ION Mobility currently publishes no public developer API,
+  SDKs, or OpenAPI specification, operating a consumer waitlist/test-ride site and an internal
+  open-source tooling estate on GitHub.
 url: https://raw.githubusercontent.com/api-evangelist/ion-mobility/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://ionmobility.com/images/meta-image.jpeg
 tags:
 - Company
+- Electric Vehicles
+- Mobility
+- Motorcycles
+- Southeast Asia
+- Hardware
+- IoT
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ion-mobility-domain-security.yml
 - type: Website
   url: https://ionmobility.com
+- type: GitHubOrganization
+  url: https://github.com/Ion-Mobility
+- type: Blog
+  url: https://ionmobility.substack.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
